@@ -1,0 +1,62 @@
+/* Centering the container with background */
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;   /* Centers horizontally */
+  align-items: center;       /* Centers vertically */
+  background: url('/static/assets/moon.jpg') no-repeat center center/cover;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  background-color: rgb(143, 48, 151);
+  width: 260px;              /* Narrower container */
+  min-height: 300px;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+/* Heading inside container */
+.container h1 {
+  color: #0e0d0d;               /* White text for contrast */
+  font-size: 40px;
+  font-weight: 500;          /* Corrected from '500px' */
+  text-align: center;      /* Top margin removed, bottom margin added */      /* Padding at the top to push it down slightly */
+  line-height: 1.2;
+  margin: 5px 0 15px 0;   /* Very small top margin */
+  padding: 0;           
+}
+
+/* Input fields */
+.container input[type="text"],
+.container input[type="password"] {
+  width: 80%;
+  height: 35px;              /* Slimmer inputs */
+  margin: 12px 0;
+  border: none;
+  border-radius: 10px;
+  padding-left: 15px;
+  font-size: 1rem;
+  outline: none;
+}
+
+/* Submit button */
+.container input[type="submit"] {
+  background-color: rgba(106, 44, 252, 0.61);
+  width: 200px;
+  height: 35px;              /* Slimmer button */
+  border: none;
+  border-radius: 30px;
+  margin-top: 15px;
+}
+
+.container input[type="submit"]:hover {
+  background: linear-gradient(45deg, #e0079d, #ff4ecb);
+  color: #fff;
+  transform: scale(1.05);
+}

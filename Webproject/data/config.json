@@ -1,0 +1,16 @@
+{
+    "name" : "Alona Mae Grino",
+    "age" : "18",
+    "address" : "Noli, Andanan Bayyugan City",
+    "contact" : "+639454951955",
+    "height" : "152cm",
+    "weight" : "42kg",
+    "mn" : "Margie S. Grino",
+    "fn" : "Epefanio M. Grino",
+    "religion" : "Christian",
+    "data" : {
+        "school" : "Caraga State University",
+        "hobbies" : ["Sleeping", "Watching movies", "Eating"],
+        "program" : "Bachelor of Science in Information Technology, 1st year student at Caraga State University Cabadbaran Campus"
+    }
+}
